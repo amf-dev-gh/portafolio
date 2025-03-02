@@ -1,0 +1,24 @@
+<section class="row text-center mx-3 mb-3 mt-4">
+  <h1 class="titulo p-0">Proyectos</h1>
+
+  <div class="row g-4 justify-content-center m-2">
+    @for (p of proyectos; track p.id) {
+    <div class="col-md-6 proyecto-card">
+      <div class="card h-100 border-secondary">
+        <img src="{{p.urlImagen}}" class="card-img-top border-bottom border-2 img-proyecto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{p.nombre}}</h5>
+          <p class="card-text text-secondary">{{p.descripcion}}</p>
+          @if (p.urlDemo != "") {
+          <a href="{{p.urlDemo}}" target="_blank" class="btn btn-success btn-sm m-1 btn-card">Ver demo</a>
+          }
+          <a href="{{p.urlRepositorio}}" target="_blank" class="btn btn-success btn-sm m-1 btn-card">Repositorio</a>
+        </div>
+        <div class="card-footer text-truncate">
+          <small class="text-body-secondary">{{p.herramientas.join(' | ')}}</small>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</section>

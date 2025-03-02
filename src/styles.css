@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.cuerpo {
+  background-color: var(--verde);
+  color: var(--crema-claro);
+}
+
+:root{
+  --verde: #2C3930;
+  --verde-claro:  #3F4F44;
+  --verde-claro-hover:  #d9e6de;
+  --crema:#A27B5C;
+  --crema-claro: #DCD7C9;
+  --blanco: #FFFFFF;
+}

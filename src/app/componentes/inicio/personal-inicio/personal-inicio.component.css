@@ -1,0 +1,45 @@
+.img-personal{
+  border-radius: 50%;
+  width: 12rem;
+  border: solid 3px var(--verde-claro);
+  padding: 0;
+}
+
+.nombre{
+  letter-spacing: 3px;
+}
+
+.titulo{
+  color: var(--crema);
+}
+
+.link{
+  text-decoration: none;
+  color: var(--crema-claro)
+}
+
+.link:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  color: var(--crema);
+}
+
+#div-img{
+  margin: 3rem 0;
+}
+
+#info-descripcion{
+  font-size: 1.25rem;
+}
+
+@media(max-width: 990px){
+ #div-img{
+    margin: 2.5rem 0 1rem 0;
+  }
+
+  #info-descripcion{
+    font-size: 1rem;
+    padding: 0;
+  }
+}

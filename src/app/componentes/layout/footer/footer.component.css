@@ -1,0 +1,21 @@
+.redes-footer{
+  color: var(--crema-claro);
+  width: 2rem;
+  height: 2rem;
+}
+
+.color-whatsapp:hover{
+  color: #2CD46B;
+}
+
+.color-git:hover{
+  color: #6170C2;
+}
+
+.color-linkedin:hover{
+  color: #126BC4;
+}
+
+.color-mail:hover{
+  color: #c39406;
+}

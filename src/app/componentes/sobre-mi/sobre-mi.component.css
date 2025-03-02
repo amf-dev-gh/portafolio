@@ -1,0 +1,9 @@
+.titulo{
+  margin-top: 2.5rem;
+}
+
+@media(max-width: 990px){
+  .titulo{
+    margin-top: 3.5rem;
+  }
+}

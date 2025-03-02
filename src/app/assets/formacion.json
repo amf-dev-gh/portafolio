@@ -1,0 +1,44 @@
+{
+  "formaciones": [
+    {
+      "id": 1,
+      "titulo": "Bootcamp Programación Full Stack| JAVA |JS.",
+      "dictadaPor": "Oracle - Alura Latam.",
+      "comienzo": "Marzo 2022",
+      "fin": "Octubre 2022",
+      "informacion": "7 meses, teoría y practicas.",
+      "urlCertificado": "https://drive.google.com/drive/folders/14EyO1qiNR9Gxvb8Gyu7VqqQk1uI4U0au?usp=sharing",
+      "urlImagen": "https://i.postimg.cc/B6dBC4v0/logo-alura.png"
+    },
+    {
+      "id": 2,
+      "titulo": "que Curso Spring, Spring Boot,Hibernate, JPA.",
+      "dictadaPor": "Pildoras Informaticas.",
+      "comienzo": "Abril 2022",
+      "fin": "Agosto 2022",
+      "informacion": "36hs. teoría y practicas.",
+      "urlCertificado": "",
+      "urlImagen": "https://i.postimg.cc/L5LBCwqZ/logo-pildoras.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Desarrollo web, Curso JavaScript y Angular.",
+      "dictadaPor": "Udemy",
+      "comienzo": "Marzo 2022",
+      "fin": "Agosto 2022",
+      "informacion": "36hs. teoría y practicas.",
+      "urlCertificado": "https://drive.google.com/file/d/1-7weJXjhLFRAKXf2vOSXEDLWKEXE_9cn/view?usp=sharing",
+      "urlImagen": "https://i.postimg.cc/L6FVY97k/logo-udemy.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Programación Básica JavaScript,HTML y CSS.",
+      "dictadaPor": "Platzi",
+      "comienzo": "Octubre 2021",
+      "fin": "Noviembre 2021",
+      "informacion": "36hs. teoría y practicas.",
+      "urlCertificado": "https://drive.google.com/file/d/1M9tqYdeqeKsQRPd1C-s1BYNgav7GIcMw/view?usp=sharing",
+      "urlImagen": "https://i.postimg.cc/y6ZP8gfY/logo-platzi.png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<section class="row justify-content-center m-3" id="formacion-inicio">
+  <h1 class="my-3">Formación</h1>
+    @for (f of formacion; track f.id) {
+      <div class="col-md-6 my-3">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="{{f.urlImagen}}" class="img-fluid rounded-start" alt="Imagen logo">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body h-100">
+                <h5 class="card-title">{{f.titulo}}</h5>
+                <p class="card-text mb-1"><small>Dictado por {{f.dictadaPor}}</small></p>
+                <p class="card-text mb-1"><small>{{f.informacion}}</small></p>
+                <p class="card-text mb-1"><small class="text-body-secondary">De {{f.comienzo}} a {{f.fin}}. </small>
+                  @if (f.urlCertificado != "") {
+                    <a href="{{f.urlCertificado}}" target="_blank" class="card-link"><small>(Diploma)</small></a>
+                  }
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </section>

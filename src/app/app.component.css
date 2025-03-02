@@ -1,0 +1,67 @@
+.scroll-top-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  color: var(--verde);
+  background-color: var(--crema-claro);
+}
+
+.scroll-top-btn::after {
+  content: '\1F845'; /* Flecha hacia arriba */
+}
+
+.scroll-top-btn:hover {
+  background-color: var(--crema);
+}
+
+.spinner{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.loader {
+  color: var(--crema-claro);
+  font-family: Consolas, Menlo, Monaco, monospace;  
+  font-size: 25rem;
+  opacity: 0.7;
+}
+.loader:before {
+  content: "{";
+  display: inline-block;
+  animation: pulse 0.5s alternate infinite ease-in-out;
+}
+.loader:after {
+  content: "}";
+  display: inline-block;
+  animation: pulse 0.5s 0.4s alternate infinite ease-in-out;
+}
+
+.contenido {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.contenido.show {
+  opacity: 1;
+}
+
+@media(max-width: 990px){
+
+  .loader {
+    font-size: 20rem;
+  }
+
+  .scroll-top-btn {
+    bottom: 1rem;
+    right: 1rem;
+  }
+
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+}

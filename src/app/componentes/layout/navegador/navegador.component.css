@@ -1,0 +1,102 @@
+#logo-nav{
+  display: flex;
+  align-items: center;
+  margin: 0 3rem;
+}
+
+#nav-bar{
+  background-color: var(--verde);
+}
+
+.subrayado{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+.img-nav{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: solid 1.5px var(--verde-claro);
+  margin-right: 3px;
+
+}
+
+.redes-nav{
+  color: var(--crema-claro);
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.link-nav{
+  color: var(--crema-claro);
+}
+
+.link-nav:hover{
+  color: var(--crema);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+.color-whatsapp:hover{
+  color: #2CD46B;
+}
+
+.color-git:hover{
+  color: #6170C2;
+}
+
+.color-linkedin:hover{
+  color: #126BC4;
+}
+
+.color-mail:hover{
+  color: #c39406;
+}
+
+.spinner {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: bounce 0.6s ease-in-out infinite;
+}
+
+.spinner::after {
+  content: '\1F847'; /* Flecha hacia abajo */
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}
+
+@media(max-width: 990px){
+  #redes-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem 0 1rem 0;
+    margin: 0;
+  }
+
+  .nav-link{
+    padding: 1rem 0 1rem 0;
+  }
+
+  #logo-nav{
+    margin-left: .5rem;
+    font-size: 1.3rem;
+  }
+}

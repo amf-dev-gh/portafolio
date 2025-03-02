@@ -1,0 +1,40 @@
+.link{
+  text-decoration: none;
+  color: var(--crema-claro)
+}
+
+.link:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 2px;
+  color: var(--crema);
+}
+
+.btn-card{
+  transition: 150ms;
+  opacity: 50%;
+}
+
+.card:hover .btn-card{
+  transition: 150ms;
+  opacity: 100%;
+}
+
+.card-body{
+  background-color: var(--verde-claro-hover);
+}
+
+.card-title{
+  color: var(--crema);
+}
+
+.img-proyecto{
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+@media(max-width: 990px){
+  .card{
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+<section class="row text-center mx-3 mb-3 mt-5" id="inicio-info">
+  <div class="text-center p-0" id="div-img">
+    <img [src]="datosPersonales.urlImg" alt="img-personal" class="img-personal">
+  </div>
+  
+  <h1 class="text-uppercase my-3 p-0 nombre"><a routerLink="/sobre-mi" class="link" title="Mas sobre mi...">{{datosPersonales.nombre}} {{datosPersonales.apellido}}</a></h1>
+  
+  <h3 class="my-2 titulo p-0">{{datosPersonales.puesto}}</h3>
+  <p class="my-3" id="info-descripcion">{{datosPersonales.descripcion}}</p>
+</section>

@@ -1,0 +1,16 @@
+{
+  "nombre": "Andres",
+  "apellido": "Fernández",
+  "puesto": "Desarrollador Back-End",
+  "descripcion": "Soy un programador backend con experiencia en el desarrollo de APIs eficientes y escalables. Aunque mi enfoque principal es el backend, también tengo conocimientos en frontend, lo que me permite comprender el desarrollo web de manera integral.",
+  "herramientas":["Java","JavaScript","SpringBoot","Thymeleaf","Angular","MySQL","GitHub","STS Eclipse","HTML","CSS","Bootstrap", "Cloudinary"],
+  "telefono": "+34 697 345 197",
+  "mail": "andres94.dev@gmail.com",
+  "urlMail": "https://mail.google.com/mail/?view=cm&fs=1&to=andres94.dev@gmail.com",
+  "urlLinkedin": "https://www.linkedin.com/in/amfdev/",
+  "urlGithub": "https://github.com/amf-dev-gh",
+  "urlCurriculum": "https://drive.google.com/uc?export=download&id=1z09_FkhKHWkf_4G8ac-VRjQAKOuT7ZpF",
+  "urlCertificados": "https://drive.google.com/drive/folders/14EyO1qiNR9Gxvb8Gyu7VqqQk1uI4U0au?usp=sharing",
+  "urlWhatsApp": "https://wa.me/34697345197?text=Hola%20Andres!%20Te%20consulto%20desde%20tu%20web...",
+  "urlImg": "https://i.postimg.cc/s2rH3nQ7/foto-cv.jpg"
+}

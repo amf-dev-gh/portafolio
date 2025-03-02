@@ -1,0 +1,58 @@
+.titulo{
+  margin-top: 2.5rem;
+}
+
+.card{
+  opacity: 85%;
+  transition: 150ms;
+}
+
+.card:hover{
+  transition: 150ms;
+  opacity: 1;
+}
+
+.btn-card{
+  transition: 150ms;
+  opacity: 50%;
+}
+
+.card:hover .btn-card{
+  transition: 150ms;
+  opacity: 100%;
+}
+
+.card-body{
+  background-color: var(--verde-claro-hover);
+}
+
+.card-title{
+  color: var(--crema);
+}
+
+.proyecto-card{
+  padding: 1rem 2rem;
+}
+
+.img-proyecto{
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+
+@media(max-width: 990px){
+  .titulo{
+    margin-top: 3.5rem;
+  }
+
+  .card{
+    opacity: 1;
+  }
+
+  .proyecto-card{
+    padding: 0;
+  }
+
+  .btn-card{
+    opacity: 1;
+  }
+}
