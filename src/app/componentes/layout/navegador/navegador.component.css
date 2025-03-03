@@ -103,7 +103,7 @@
   }
 
   #logo-nav{
-    margin-left: .5rem;
+    margin: 0 3rem 0 .5rem;
     font-size: 1.3rem;
   }
 }
