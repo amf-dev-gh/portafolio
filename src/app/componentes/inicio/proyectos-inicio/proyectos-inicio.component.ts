@@ -17,6 +17,9 @@ export class ProyectosInicioComponent {
   @Input()
   herramientas!: string[];
 
+  filtrado:boolean = false
+  htaFiltro:string = "";
+
       constructor(private jsonService: JsonService) {
         this.proyectos = jsonService.obtenerProyectos();
       }
@@ -27,6 +30,13 @@ export class ProyectosInicioComponent {
     this.proyectos = todosLosProyectos.filter(
       p => Array.isArray(p.herramientas) && p.herramientas.includes(hta)
     );
+    this.htaFiltro = hta;
+    this.filtrado = true;
     console.log("Proyectos filtrados por: " + hta, this.proyectos);
+  }
+
+  quitarFiltro(){
+    this.filtrado = false;
+    this.proyectos = this.jsonService.obtenerProyectos();
   }
 }

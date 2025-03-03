@@ -1,11 +1,18 @@
 #logo-nav{
   display: flex;
   align-items: center;
-  margin: 0 3rem;
+  margin: 0 7rem 0 1rem;
 }
 
 #nav-bar{
   background-color: var(--verde);
+}
+
+.navbar-toggler{
+  border-color: var(--crema-claro);
+}
+.navbar-toggler-icon {
+  filter: invert(100%);
 }
 
 .subrayado{

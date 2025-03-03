@@ -1,54 +1,100 @@
 {
   "proyectos": [
     {
-      "id":1,
-      "nombre":"Virtual Bank",
-      "descripcion":"Banco virtual donde se pueden realizar transferencias, ver movimientos, imprimir detalles, dar de alta cuentas diferenciadas y administrarlas (como ADMIN). Extra ATM virtual donde se podran efectuar operaciones similares con una vista similar.",
-      "urlRepositorio":"https://github.com/amf-dev-gh/Virtual-Bank",
-      "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7054578667686928384-jvg5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
-      "urlImagen": "https://i.postimg.cc/jj1HstP7/virtual-bank.jpg",
-      "visible" : true,
-      "herramientas": ["Java","SpringBoot","Thymeleaf","MySQL","GitHub","STS Eclipse","HTML","CSS","Bootstrap"]
-    },
-    {
-      "id":2,
-      "nombre":"E-commerce",
-      "descripcion":"Funcionalidades de agregar, editar, actualizar, eliminar productos del comercio virtual, ver ordenes de compra y detalles de usuarios estando logueado como ADMIN. Funcionalidades de agregar, editar y actualizar datos usuarios estando logueado como USER. Emplea dependencia ITextPdf para crear archivos PDF con la informacion detallada de cada compra.",
-      "urlRepositorio":"https://github.com/amf-dev-gh/springboot-ecomerce",
-      "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7045720429310676993-IJGf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
-      "urlImagen": "https://i.postimg.cc/HkB0hQL3/spring-ecommerce.jpg",
-      "visible" : true,
-      "herramientas": ["Java","SpringBoot","Thymeleaf","MySQL","GitHub","STS Eclipse","HTML","CSS","Bootstrap"]
-    },
-    {
-      "id":3,
-      "nombre":"SpringBoot-Ig",
-      "descripcion":"Copia de la red social Instagram, con funciones limitadas como agregar publicaciones, interactuar con ellas, seguir y tener seguidores con permisos por usuario.",
-      "urlRepositorio":"https://github.com/amf-dev-gh/SpringBoot-IG",
-      "urlDemo": "",
-      "urlImagen": "https://i.postimg.cc/25ydRVbY/springboot-ig.png",
-      "visible" : true,
-      "herramientas": ["Java","SpringBoot","Thymeleaf","MySQL","GitHub","STS Eclipse","HTML","CSS","Bootstrap", "Cloudinary"]
-    },
-    {
-      "id":4,
-      "nombre":"Juego Ahorcado",
-      "descripcion":"Clasico juego del Ahoraco creado como challenge del bootcamp Alura - ONE",
-      "urlRepositorio":"https://github.com/amf-dev-gh/ChallengeAhorcado",
+      "id": 1,
+      "nombre": "Juego Ahorcado",
+      "descripcion": "Clasico juego del Ahoraco creado como challenge del bootcamp Alura - ONE",
+      "urlRepositorio": "https://github.com/amf-dev-gh/ChallengeAhorcado",
       "urlDemo": "https://amf-dev-gh.github.io/ChallengeAhorcado/",
       "urlImagen": "https://i.postimg.cc/ZKPxrktG/ahorcado.png",
-      "visible" : true,
-      "herramientas": ["JavaScript","GitHub","STS Eclipse","HTML","CSS"]
+      "visible": true,
+      "herramientas": [
+        "JavaScript",
+        "GitHub",
+        "STS Eclipse",
+        "HTML",
+        "CSS",
+        "IDE VSC"
+      ]
     },
     {
-      "id":5,
-      "nombre":"Juego de la memoria",
-      "descripcion":"Clasico juego de la memoria o memo-test donde se debera encontrar el par de cartas en el menor tiempo y menor cantidad de movimientos posible.",
-      "urlRepositorio":"https://github.com/amf-dev-gh/memo-test",
+      "id": 2,
+      "nombre": "Juego de la memoria",
+      "descripcion": "Clasico juego de la memoria o memo-test donde se debera encontrar el par de cartas en el menor tiempo y menor cantidad de movimientos posible.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/memo-test",
       "urlDemo": "https://www.linkedin.com/posts/amfdev_buenos-d%C3%ADas-hoy-comparto-un-peque%C3%B1o-proyectito-activity-7097883136079872000-YjK1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
       "urlImagen": "https://i.postimg.cc/3wyGbGF6/memo-test.jpg",
-      "visible" : true,
-      "herramientas": ["JavaScript","Angular","GitHub","HTML","CSS","Bootstrap"]
+      "visible": true,
+      "herramientas": [
+        "JavaScript",
+        "Angular",
+        "GitHub",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "IDE VSC"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "SpringBoot-Ig",
+      "descripcion": "Copia de la red social Instagram, con funciones limitadas como agregar publicaciones, interactuar con ellas, seguir y tener seguidores con permisos por usuario.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/SpringBoot-IG",
+      "urlDemo": "",
+      "urlImagen": "https://i.postimg.cc/25ydRVbY/springboot-ig.png",
+      "visible": true,
+      "herramientas": [
+        "Java",
+        "SpringBoot",
+        "Thymeleaf",
+        "MySQL",
+        "GitHub",
+        "IDE Eclipse",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Cloudinary"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "E-commerce",
+      "descripcion": "Funcionalidades de agregar, editar, actualizar, eliminar productos del comercio virtual, ver ordenes de compra y detalles de usuarios estando logueado como ADMIN. Funcionalidades de agregar, editar y actualizar datos usuarios estando logueado como USER. Emplea dependencia ITextPdf para crear archivos PDF con la informacion detallada de cada compra.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/springboot-ecomerce",
+      "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7045720429310676993-IJGf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
+      "urlImagen": "https://i.postimg.cc/HkB0hQL3/spring-ecommerce.jpg",
+      "visible": true,
+      "herramientas": [
+        "Java",
+        "SpringBoot",
+        "Thymeleaf",
+        "MySQL",
+        "GitHub",
+        "IDE Eclipse",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Virtual Bank",
+      "descripcion": "Banco virtual donde se pueden realizar transferencias, ver movimientos, imprimir detalles, dar de alta cuentas diferenciadas y administrarlas (como ADMIN). Extra ATM virtual donde se podran efectuar operaciones similares con una vista similar.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/Virtual-Bank",
+      "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7054578667686928384-jvg5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
+      "urlImagen": "https://i.postimg.cc/jj1HstP7/virtual-bank.jpg",
+      "visible": true,
+      "herramientas": [
+        "Java",
+        "SpringBoot",
+        "Thymeleaf",
+        "MySQL",
+        "GitHub",
+        "IDE Eclipse",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
     }
   ]
 }

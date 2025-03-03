@@ -1,9 +1,22 @@
 .titulo{
   margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.info-descripcion{
+  text-align: justify;
+  text-indent: 2rem;
+  font-size: 1.25rem;
 }
 
 @media(max-width: 990px){
   .titulo{
     margin-top: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .info-descripcion{
+    font-size: 1rem;
+    padding: 0;
   }
 }

@@ -53,8 +53,7 @@
   }
 
   .scroll-top-btn {
-    bottom: 1rem;
-    right: 1rem;
+    display: none;
   }
 
 }

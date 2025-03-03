@@ -13,6 +13,6 @@ export class ProyectosComponent {
     proyectos: Proyecto[];
   
     constructor(private jsonService: JsonService) {
-      this.proyectos = this.jsonService.obtenerProyectos();
+      this.proyectos = this.jsonService.obtenerProyectos().reverse();
     }
 }

@@ -10,6 +10,25 @@
   color: var(--crema);
 }
 
+.div-htas{
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .8rem;
+}
+
+.btn-htas{
+  background-color: var(--crema);
+  color: var(--crema-claro);
+  font-weight: 500;
+  opacity: .75;
+}
+
+.btn-htas:hover{
+  opacity: 1;
+}
+
 .card{
   opacity: 85%;
   transition: 150ms;
@@ -50,5 +69,9 @@
 
   .btn-card{
     opacity: 1;
+  }
+
+  .div-htas{
+    justify-content: center;
   }
 }

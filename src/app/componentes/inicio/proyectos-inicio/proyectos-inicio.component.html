@@ -1,34 +1,38 @@
-<section class="row m-3" id="herramientas-inicio">
-  <h1 class="mb-4">Herramientas</h1>
-  <div class="col-md">
-    <div class="my-3">
-      @for (hta of herramientas; track $index) {
-      <a href="#proyectos-inicio" (click)="filtrarProyectos(hta)" class="btn btn-sm btn-success m-2">{{hta}}</a>
-      }
-    </div>
+<section class="row m-3 mb-0" id="htas-inicio">
+  <h1 class="mb-4">Proyectos recientes y Herramientas</h1>
+  <div class="col-md div-htas">
+    @for (hta of herramientas; track $index) {
+    <a href="#htas-inicio" (click)="filtrarProyectos(hta)" class="btn btn-sm btn-htas">{{hta}}</a>
+    }
   </div>
 </section>
 
 <section class="row justify-content-center m-3" id="proyectos-inicio">
-
-  <h1 class="my-3"><a routerLink="/proyectos" class="link" title="Ver mas proyectos.">Proyectos</a></h1>
-
   <div class="col p-0">
-    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center my-3">
-      @for (p of proyectos.slice(0,3); track p.id) {
+    @if (filtrado) {
+      <a href="#htas-inicio" class="btn btn-sm btn-success" (click)="quitarFiltro()">
+        {{htaFiltro}} 
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+          <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+      </a>
+    }
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center my-1">
+      @for (p of proyectos.slice(-3).reverse(); track p.id) {
       <div class="col-md-4 p-2">
         <div class="card h-100 border-secondary">
           <img src="{{p.urlImagen}}" class="card-img-top border-bottom border-2 img-proyecto" alt="...">
           <div class="card-body">
             <h5 class="card-title">{{p.nombre}}</h5>
+            <small class="text-body-secondary">Tecnologías: {{p.herramientas.join(' | ')}}</small>
+            <hr>
             <p class="card-text text-secondary">{{p.descripcion}}</p>
+          </div>
+          <div class="card-footer">
             @if (p.urlDemo != "") {
             <a href="{{p.urlDemo}}" target="_blank" class="btn btn-success btn-sm m-1 btn-card">Ver demo</a>
             }
             <a href="{{p.urlRepositorio}}" target="_blank" class="btn btn-success btn-sm m-1 btn-card">Repositorio</a>
-          </div>
-          <div class="card-footer text-truncate">
-            <small class="text-body-secondary">{{p.herramientas.join(' | ')}}</small>
           </div>
         </div>
       </div>
