@@ -59,7 +59,7 @@
     {
       "id": 4,
       "nombre": "E-commerce",
-      "descripcion": "Funcionalidades de agregar, editar, actualizar, eliminar productos del comercio virtual, ver ordenes de compra y detalles de usuarios estando logueado como ADMIN. Funcionalidades de agregar, editar y actualizar datos usuarios estando logueado como USER. Emplea dependencia ITextPdf para crear archivos PDF con la informacion detallada de cada compra.",
+      "descripcion": "Funcionalidades de agregar, editar, actualizar, eliminar productos del comercio virtual, ver ordenes de compra y detalles de usuarios estando logueado como ADMIN. Funcionalidades de agregar, editar y actualizar datos usuarios estando logueado como USER. Emplea dependencia ITextPdf para crear archivos PDF con la información detallada de cada compra.",
       "urlRepositorio": "https://github.com/amf-dev-gh/springboot-ecomerce",
       "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7045720429310676993-IJGf?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
       "urlImagen": "https://i.postimg.cc/HkB0hQL3/spring-ecommerce.jpg",
@@ -79,7 +79,7 @@
     {
       "id": 5,
       "nombre": "Virtual Bank",
-      "descripcion": "Banco virtual donde se pueden realizar transferencias, ver movimientos, imprimir detalles, dar de alta cuentas diferenciadas y administrarlas (como ADMIN). Extra ATM virtual donde se podran efectuar operaciones similares con una vista similar.",
+      "descripcion": "Banco virtual donde se pueden realizar transferencias, ver movimientos, imprimir detalles, dar de alta cuentas diferenciadas y administrarlas (como ADMIN). Extra ATM virtual donde se podrán efectuar operaciones similares con una vista similar.",
       "urlRepositorio": "https://github.com/amf-dev-gh/Virtual-Bank",
       "urlDemo": "https://www.linkedin.com/posts/amfdev_java-springboot-springsecurity-activity-7054578667686928384-jvg5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
       "urlImagen": "https://i.postimg.cc/jj1HstP7/virtual-bank.jpg",

@@ -26,7 +26,7 @@ export class AppComponent implements OnInit{
           this.contenidoAnimado = true;
         }, 10);
       }, 10);
-    }, 2000);
+    }, 1500);
   }
 
 

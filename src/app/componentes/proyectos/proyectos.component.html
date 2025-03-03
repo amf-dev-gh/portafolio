@@ -1,7 +1,7 @@
-<section class="row text-center mx-3 mb-3 mt-4">
+<section class="row text-center mb-3 mt-4 mx-1 justify-content-center">
   <h1 class="titulo p-0">Proyectos</h1>
 
-  <div class="row g-4 justify-content-start m-2">
+  <div class="row g-4 justify-content-start my-2" id="cont-proyectos">
     @for (p of proyectos; track p.id) {
     @if (p.visible) {
     <div class="col-md-4 proyecto-card">

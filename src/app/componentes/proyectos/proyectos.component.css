@@ -44,6 +44,10 @@
     margin-top: 3.5rem;
   }
 
+  .cont-proyectos{
+    justify-content: center;
+  }
+
   .card{
     opacity: 1;
   }
