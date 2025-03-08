@@ -89,8 +89,32 @@
         "SpringBoot",
         "Thymeleaf",
         "MySQL",
+        "API REST",
         "GitHub",
         "IDE Eclipse",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Inmobiliaria Bonpland",
+      "descripcion": "Inmobiliaria web donde se podran encontrar inmuebles, filtrarlos, hacer consultas, hacer reservas o ver datos informativos. Implementa JWT para la seguridad y la administracion de los mismo con cuentas que tengan como rol ADMIN.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/inmobiliaria-bonpland-back",
+      "urlDemo": "https://www.linkedin.com/posts/amfdev_inmobiliariabonpland-idea5-java-activity-7304196887899783168-C0z-?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgvOBcB-IKJpZETg7vJt3J7RBjZ3SoOv6w",
+      "urlImagen": "https://i.postimg.cc/ncHdDD8g/inmobiliaria-bonpland.jpg",
+      "visible": true,
+      "herramientas": [
+        "Java",
+        "SpringBoot",
+        "Spring Security",
+        "JWT",
+        "H2 SQL",
+        "API REST",
+        "GitHub",
+        "IDE Eclipse",
+        "IDE VSC",
         "HTML",
         "CSS",
         "Bootstrap"

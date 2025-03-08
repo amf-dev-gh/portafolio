@@ -3,12 +3,13 @@
 }
 
 .card{
-  opacity: 85%;
+  opacity: 80%;
   transition: 150ms;
 }
 
 .card:hover{
   transition: 150ms;
+  scale: 1.02;
   opacity: 1;
 }
 
