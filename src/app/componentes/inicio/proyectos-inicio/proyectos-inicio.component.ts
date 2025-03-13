@@ -32,7 +32,6 @@ export class ProyectosInicioComponent {
     );
     this.htaFiltro = hta;
     this.filtrado = true;
-    console.log("Proyectos filtrados por: " + hta, this.proyectos);
   }
 
   quitarFiltro(){

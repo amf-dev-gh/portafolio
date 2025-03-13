@@ -73,6 +73,12 @@
   }
 
   .div-htas{
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .btn-htas{
+    width: 31%;
+    gap: 0;
   }
 }
