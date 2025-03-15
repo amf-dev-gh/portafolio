@@ -35,7 +35,7 @@ export class ProyectosInicioComponent {
   }
 
   quitarFiltro(){
-    this.filtrado = false;
     this.proyectos = this.jsonService.obtenerProyectos();
+    this.filtrado = false;
   }
 }

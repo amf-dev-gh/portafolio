@@ -22,7 +22,7 @@ export class JsonService {
   }
 
   obtenerProyectos(): Proyecto[] {
-    return this.proyectos;
+    return this.proyectos.sort((a, b) => a.id - b.id);
   }
 
   obtenerFormacion(): Formacion[]{
