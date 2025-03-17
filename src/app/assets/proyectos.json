@@ -119,6 +119,30 @@
         "CSS",
         "Bootstrap"
       ]
+    },
+    {
+      "id": 7,
+      "nombre": "Compra Barato",
+      "descripcion": "Sitio para comparar precios de supermercado en tiempo real. Hasta el momento implementado el scrap de Consum y Mercadona con Selenium. Genera listados de compras y envia por mensaje de WhatsApp con API de Twilio.",
+      "urlRepositorio": "https://github.com/amf-dev-gh/compra-barato-back",
+      "urlDemo": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7307396381600579584/",
+      "urlImagen": "https://i.postimg.cc/prWrHbFZ/compra-barato.png",
+      "visible": true,
+      "herramientas": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "JavaScript",
+        "API REST",
+        "GitHub",
+        "IDE Eclipse",
+        "IDE VSC",
+        "Selenium",
+        "API Twilio",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ]
     }
   ]
 }
